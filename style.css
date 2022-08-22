@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*O código acima serve para resetar o espaços naturais do html*/
+
+body {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 0;
+  border-top: solid 1px #000000;
+  border-bottom: solid 1px #000000;
+}
+
+/*classe quebra foi criada somente para remover o efeito do float no footer*/
+.quebra {
+  clear: both;
+}
+
+#foto {
+  width: 150px;
+  height: 150px;
+  background-color: #666666;
+  margin: 0 auto;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  background-color: #666666;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+nav {
+  margin: 4px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 26px;
+  margin-top: 18px;
+  border-top: solid 3px #666666;
+}
+
+p {
+  margin: 18px 0;
+  font-size: 22px;
+}
+
+.destaque-vermelho {
+  color: red;
+}
+
+.job {
+  width: 200px;
+  height: 200px;
+  background-color: #cccccc;
+  float: right;
+  margin: 24px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/*--Mobile-- as regras abaixo são apenas para telas grandes.*/
+@media (min-width: 1024px) {
+  aside {
+    float: left;
+    width: 16%;
+    padding: 4px;
+    text-align: right;
+  }
+
+  main {
+    float: right;
+    width: 80%;
+    padding: 4px;
+    margin: auto;
+  }
+}
+
+footer {
+  text-align: center;
+}
